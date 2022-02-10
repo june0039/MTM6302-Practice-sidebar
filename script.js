@@ -23,4 +23,10 @@ document.addEventListener('scroll', function () {
   
   scrollPosition = window.scrollY
   
+  for(const $heading of headings) {
+    if(scrollPosition <= $heading.offsetTop) {
+      console.log($heading.offsetTop)
+      
+    }
+  }
 })
