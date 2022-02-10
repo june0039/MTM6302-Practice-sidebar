@@ -1,1 +1,35 @@
 
+
+body{
+  font-size: 16px;
+}
+
+
+.toc-H1{
+  
+  padding-left: 0.5rem;
+}
+
+.toc-H2{
+  
+  padding-left: 1.5rem;
+  
+}
+
+.toc-H3{
+  
+  padding-left: 2.5rem;
+  
+}
+
+.toc-link:hover {
+  
+  background: #ddd;
+}
+
+
+.toc-link{
+  
+  display:block;
+  
+}
